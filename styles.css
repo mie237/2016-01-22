@@ -1,0 +1,12 @@
+p, li, pre {
+    color: black;
+}
+
+td {
+    color: black;
+}
+
+slides > slide {
+  margin-top: -500px;
+}
+
