@@ -215,9 +215,9 @@ except for the usual problem...
 
 >* Simplest fix is to just replace $p$ with its estimate $\hat{p}$.
 
->* Actually a really badly performing confidence interval.
+>* (Optional material) Actually a really badly performing confidence interval.
 
-## Another confidence interval for a proportion
+## Another confidence interval for a proportion (OPTIONAL)
 
 >* The simplest interval is based on the approximation:
 $$1-\alpha = P\left(-z_{\alpha/2} < \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} < z_{\alpha/2}\right)\approx P\left(-z_{\alpha/2} < \frac{\hat{p} - p}{\sqrt{\frac{\hat{p}(1-{p})}{n}}} < z_{\alpha/2}\right)$$
@@ -225,7 +225,7 @@ $$1-\alpha = P\left(-z_{\alpha/2} < \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} 
 >* A better performing interval is based on solving for $p$ directly:
 $$-z_{\alpha/2} < \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} < z_{\alpha/2}$$
 
-## Another confidence interval for a proportion { .build }
+## Another confidence interval for a proportion (OPTIONAL) { .build }
 
 Solution isn't so simple:
 
@@ -244,7 +244,7 @@ The interval $\tilde{p} \pm z_{\alpha/2}\sqrt{\frac{\tilde{p}(1-\tilde{p})}{n}}$
 
 * As usual depends on the skewness of the underlying distribution...
 
-* Use the heuristic: $n\hat{p}$ and $n\hat{p}(1-\hat{p})$ both exceed 5.
+* Use the heuristic: $n\hat{p}$ and $n(1-\hat{p})$ both exceed 5.
 
 ## Inference for two-way classifications
 
